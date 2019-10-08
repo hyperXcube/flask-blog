@@ -11,6 +11,9 @@ This is the code from me learning Flask from Cory Schafer's Flask tutorial. You 
     * flask-login: `pip install flask_login`
     * flask-mail: `pip install flask_mail`
     * Pillow (PIL): `pip install Pillow`
+    * Or instead you could just run:
+    
+        `pip install flask flask_sqlalchemy flask_wtf flask_bcrypt flask_login flask_mail Pillow`
 
 ## Run instructions
 1. To start server: `python run.py runserver`
