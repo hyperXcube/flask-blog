@@ -1,6 +1,6 @@
 from flask import Blueprint, flash, redirect, url_for, render_template, abort, request
 from flask_login import login_required, current_user
-from flask_blog import db
+from .. import db
 
 from ..models import Post
 from .forms import NewPostForm, UpdatePostForm
