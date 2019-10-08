@@ -243,3 +243,7 @@ modules.xml
 # User images
 flask_blog/static
 !flask_blog/static/page.css
+!flask_blog/static/default.jpg
+q
+# Databases
+*.db
