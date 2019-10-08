@@ -247,3 +247,6 @@ flask_blog/static
 
 # Databases
 *.db
+
+# Testing
+test.py
