@@ -245,8 +245,9 @@ flask_blog/static
 !flask_blog/static/page.css
 !flask_blog/static/default.jpg
 
-# Databases
+# App specific stuff
 *.db
+flask_blog/config.json
 
 # Testing
 test.py

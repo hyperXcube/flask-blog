@@ -1,5 +1,7 @@
 # flask-blog
-This is the code from me learning Flask from Cory Schafer's Flask tutorial. You can see it at https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH.
+This is the code from me learning Flask from Cory Schafer's Flask tutorial.
+You can see it at https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH.
+Alternatively, you can see the deployed website at http://flaskblog.ga
 
 ## Setup
 1. Install Python (3.6 or later). https://www.python.org has instructions on how to download it.

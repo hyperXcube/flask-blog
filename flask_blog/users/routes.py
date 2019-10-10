@@ -16,7 +16,7 @@ def register():
         return redirect(url_for('main.home'))
     form = RegisterForm()
     if form.validate_on_submit():
-        password_hash = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+        password_hash = bcrypt.generate_password_hash(form.password.data)
         user = User(username=form.username.data, email=form.email.data, password=password_hash)
         db.session.add(user)
         db.session.commit()
@@ -62,7 +62,7 @@ def pw_reset(token):
         return redirect(url_for('users.request_pw_reset'))
     form = PasswordResetForm()
     if form.validate_on_submit():
-        password_hash = bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+        password_hash = bcrypt.generate_password_hash(form.password.data)
         user.password = password_hash
         db.session.commit()
         flash('Password successfully changed! You can now log in with your new password.', 'success')
