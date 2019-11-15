@@ -6,6 +6,10 @@ from flask_login import UserMixin
 
 from . import db, login_manager
 
+def init_db(app):
+    with app.app_context():
+        db.create_all()
+
 @login_manager.user_loader
 def load_user(u_id):
     return User.query.get(u_id)
