@@ -1,10 +1,8 @@
 # flask-blog
-This is the code from me learning Flask from Cory Schafer's Flask tutorial.
-You can see it at https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH.
-Alternatively, you can see the deployed website at http://flaskblog.ga
+Project from Cory Schafer's [Flask tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH).
 
 ## Setup
-1. Install Python (3.6 or later). https://www.python.org has instructions on how to download it.
+1. Install [Python](https://www.python.org) (3.6 or later).
 2. Install required packages
     * flask: `pip install flask`
     * flask-sqlalchemy: `pip install flask_sqlalchemy`
@@ -17,6 +15,6 @@ Alternatively, you can see the deployed website at http://flaskblog.ga
     
         `pip install flask flask_sqlalchemy flask_wtf flask_bcrypt flask_login flask_mail Pillow`
 
-## Run instructions
-1. To start server: `python run.py runserver`
+## Running
+1. To start the server: `python run.py runserver`
 2. Then navigate to `localhost:5000` on your browser
